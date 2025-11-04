@@ -3,7 +3,8 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'vercel-demo-secret-key'
+
+SECRET_KEY = 'django-insecure-qbjf)d!nz)m0f6axm6k$%a3wus7o!#(mz=#2hvqk1-gcwi9tyw'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
@@ -19,6 +20,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'project.urls'
+
 WSGI_APPLICATION = 'project.wsgi.application'
 ASGI_APPLICATION = 'project.asgi.application'
 
